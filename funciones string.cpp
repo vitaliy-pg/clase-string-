@@ -8,19 +8,19 @@ int main() {
     std::cout << "Ingrese una cadena: ";
     std::getline(std::cin, miCadena);
 
-    std::cout << "El tamaño de la cadena es: " << miCadena.size() << " caracteres." << std::endl;
+    std::cout << "El tamano de la cadena es: " << miCadena.size() << " caracteres." << std::endl;
 
 
     if (miCadena.empty()) {
-        std::cout << "La cadena está vacía." << std::endl;
+        std::cout << "La cadena está vacia." << std::endl;
     } else {
-        std::cout << "La cadena NO está vacía." << std::endl;
+        std::cout << "La cadena NO está vacia." << std::endl;
     }
     std::string segundaCadena = " Esta es otra cadena.";
     miCadena += segundaCadena;
 
 
-    std::cout << "Cadena después de la concatenación: " << miCadena << std::endl;
+    std::cout << "Cadena despues de la concatenacion: " << miCadena << std::endl;
 
     return 0;
 }
