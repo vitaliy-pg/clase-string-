@@ -8,3 +8,7 @@ int main() {
 
 
     std::string resultado = cadena1 + cadena2;
+    std::cout << "Cadena resultante: " << resultado << std::endl;
+
+    return 0;
+}
