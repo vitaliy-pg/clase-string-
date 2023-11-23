@@ -14,3 +14,8 @@ int main() {
     size_t indiceInsercion = 24;
     std::string cadenaAInsertar = "manipulación ";
     miCadena.insert(indiceInsercion, cadenaAInsertar);
+
+    std::cout << "Cadena resultante después de la inserción: " << miCadena << std::endl;
+
+    return 0;
+}
