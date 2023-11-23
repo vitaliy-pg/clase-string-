@@ -10,3 +10,7 @@ int main() {
     std::string subcadena = miCadena.substr(indiceInicio, longitudSubcadena);
 
     std::cout << "Subcadena obtenida: " << subcadena << std::endl;
+
+    size_t indiceInsercion = 24;
+    std::string cadenaAInsertar = "manipulación ";
+    miCadena.insert(indiceInsercion, cadenaAInsertar);
